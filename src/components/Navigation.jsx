@@ -1,13 +1,10 @@
 const Navigation = ( ) =>{
 return  <nav className="container">
-<div className="logo">
-    <img src="/images/brand_logo.png" alt="logo" />
-</div>
 <ul>
-    <li href="#">MENU</li>
-    <li href="#">L0CATION</li>
-    <li href="#">ABOUT</li>
-    <li href="#">CONTACT</li>
+    <li href="#">ABOUT US</li>
+    <li href="#">GALLERY</li>
+    <li href="#">WHISHLIST</li>
+    <li href="#">CONTACT US</li>
 </ul>
 <button>Login</button>
 </nav>;

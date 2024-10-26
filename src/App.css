@@ -13,7 +13,7 @@ body{
 button{
     all: unset;
     padding: 6px 16px;
-    background-color: var(--red);
+    background-color: palevioletred;
     height: 32px;
     color: white;
     font-weight: 500;
@@ -24,6 +24,7 @@ nav{
     align-items: center;
 }
 nav ul{
+    color: palevioletred;
     display: flex;
     list-style: none;
     gap: 24px;
@@ -31,41 +32,13 @@ nav ul{
 .container{
     max-width: 1280px;
     margin: 0 auto;
+    margin-top: 0 auto;
 }
-.Hero-content{
-    display: flex;
-    flex-direction: column;
-    gap: 36px;
-}
-.hero{
-    display: flex;
-    align-items: center;
-    height: calc(100vh-72px);
-}
-.hero h1{
-    font-weight: 800;
-    font-size: 108px;
-    line-height: 102px;
-}
-.hero p{
-    font-weight: 600;
-    color: var(--gray);
-}
-.Hero-btn{
-    display: flex;
-    gap: 40px;
-    font-size: 24px;
-}
-.Secondary-btn{
-    background: transparent;
-    color: var(--gray);
-    border: 1px solid gray;
-}
-.Shopping p{
-    font-size: 14px;
-    margin-bottom: 8px;
-}
-.brand-icons{
-    display: flex;
-    gap: 16px;
+.home{
+    background-image: url(./images/homeimage.png);
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
 }
